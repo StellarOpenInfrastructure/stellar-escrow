@@ -1,0 +1,10 @@
+{
+  "description": "Example milestone plan for a software delivery escrow (amounts in token base units, 7 decimals)",
+  "asset": "USDC on Soroban (contract id per network)",
+  "milestones": [
+    { "amount": "2500000000", "description": "Kickoff and specification signed" },
+    { "amount": "5000000000", "description": "Beta delivered and accepted" },
+    { "amount": "2500000000", "description": "Production release" }
+  ],
+  "expirationDays": 90
+}

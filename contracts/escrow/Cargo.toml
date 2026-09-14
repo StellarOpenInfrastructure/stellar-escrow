@@ -1,0 +1,19 @@
+[package]
+name = "stellar-escrow-contract"
+description = "Programmable B2B escrow with milestones, disputes, expiration and settlement for Soroban."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+publish = false
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+doctest = false
+
+[dependencies]
+soroban-sdk = { workspace = true }
+
+[dev-dependencies]
+soroban-sdk = { workspace = true, features = ["testutils"] }
