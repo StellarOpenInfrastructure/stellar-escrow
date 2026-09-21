@@ -10,7 +10,7 @@ repository = "https://github.com/StellarOpenInfrastructure/stellar-escrow"
 rust-version = "1.84"
 
 [workspace.dependencies]
-soroban-sdk = "27.0.6"
+soroban-sdk = "28.0.0"
 
 # Soroban contracts must be small and deterministic.
 [profile.release]
